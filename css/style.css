@@ -1,0 +1,189 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Arial,sans-serif;
+    font-size: 13px;
+    padding: 0px 3px;
+}
+header{
+    width: 100%;
+    height: 60px;
+}
+header nav{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+header nav .nav-right-section{
+    font-family: arial,sans-serif;
+    width: 250px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+}
+.nav-right-section a{
+    font-size: 12px;
+    text-decoration: none;
+    margin: 10px;
+    color: #000001;
+    
+}
+.caja{
+    
+    width: 25px;
+    height: 25px;/* 
+    display: inline-block; */
+    line-height: 24px;
+    vertical-align: middle;
+    color: rgba(0,0,0,.87);
+}
+.icon{
+    /* display: inline-block; */
+    width: 24px;
+    height: 25px;
+    cursor: pointer;
+}
+.profile{  
+    border-radius: 100px;
+    margin-left: 10px;
+}
+
+
+/* Main */
+main{
+    margin-top: 100px;
+    text-align: center;
+}
+main .main-logo{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    width: 272px;
+
+}
+main .main-logo img{
+width: 272px;
+}
+main .main-input{
+    width: 582.67px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    padding: 5px 8px 0px 14px;
+    
+}
+main .main-input-container{
+    width: 582.67px;
+    border-radius: 100px;
+    border: 1px solid #e1e2e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 8px 0px 14px;
+    height: 44px;    
+}
+main .main-input input{
+    width: 450px;
+    height: 44px;
+    border: none;
+    outline: none;
+}
+main .main-input-container:hover{
+    box-shadow: 0 1px 6px 0#20212447;
+}
+main .main-input .search-icon{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png');
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    width: 18px;
+    height: 18px;
+   /*  z-index: -1;
+    position: relative; */
+}
+main .main-input .micro-icon{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png');
+    /* background-repeat: no-repeat;
+    background-position: center;
+    */ width: 18px;
+    height: 18px;
+    cursor: pointer;
+    z-index: 0;
+    position: absolute;
+}
+main .main-input .camara-icon{
+    background-image: url('https://static.wikia.nocookie.net/logopedia/images/2/2b/Google_Lens_2021.svg/revision/latest/scale-to-width-down/250?cb=20221018010850');
+    /* background-repeat: no-repeat;
+    background-position: center;
+    */ width: 18px;
+    height: 18px;
+    cursor: pointer;
+    z-index: 0;
+    position: absolute;
+}
+main .main-button{
+    width: 530px;
+    margin:0 auto;
+}
+main .main-button div{
+    display: inline-block;
+}
+main .main-button button{
+    height: 36px;
+    background-color: #f8f9fa;
+    border: none;
+    font-size: 14px;
+    color: #3c4043;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 10px;
+}
+p{
+    font-size: 13px;
+    font-family: arial,sans-serif;
+    color: #4D5156;
+  }
+main .main-button button:hover{
+    border: 1px solid #dadce0;
+    box-shadow: 1px;
+    color: #202124;
+}
+/* Footer */
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background:#f2f2f2;
+    color: rgba(0,0,0,.54);
+    border:0.5px solid #EDEDEE;
+    padding: 15px 15px 15px 15px;
+ }
+
+ .footer p{
+    /* Mexico */
+    font-size:15px;
+    padding-left: 15px;
+    opacity:0.95;
+    font-family: Arial, sans-serif;
+    color: #70757A;
+    padding: 15px 30px;
+}
+.footer nav a{
+    font-size: 14px;
+    padding:10px;
+    color: #70757A;
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+}
+.rightnav{
+    float:right;
+    padding-right: 30px;
+  }
